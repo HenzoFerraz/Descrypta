@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Descrypta - Seu Decotificador de Mensagens</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+<header>
+    <img class="logoDes" src="logoDes.png" alt="Logo da Descrypta">
+     <h1 class="titulo-principal">Descrypta</h1> 
+</header>
+<body>
+    <div class="caixa">
+        <div class="apresentacao">
+            <p>Descrypta é o seu melhor e talvez seu primeiro Decotificador de mensagens, aqui poderá trocar mensagens secretas com seus amigos(as), colegas e parentes.</p>
+        </div>
+        <div class="explicacao">
+            <p> Basta colocar sua mensagem no campo "Digite sua mensagem" e click no botão "Criptografar", vá até o campo "Resultado" e click no botão "Copiar", compartilhe sua mensagem decotificada com seus colegas, agora só eles colarem a mensagem no campo "Digite sua mensagem" e clickar no botão "Descriptografar" e você poderá ver a mensagem descodificada no campo de resultado.</p>
+        </div>
+        <div class="conteudo">
+        <input type="textarea" class="areaTexto" placeholder="Digite sua mensagem">
+        <button id="copiar" onclick="btCopy()">Copiar</button>
+        <input type="textarea" class="areaResultado" placeholder="Resultado">
+        <br><br>
+        
+    <button class="criptografar" onclick="btCripto()">Criptografar</button>
+    <button class="descriptografar" onclick="btDescripto()">Descriptografar</button>
+    
+    
+        </div>
+    <script src="botoes.js"></script>
+
+    </div>
+</body>
+<footer class="rodape">
+    <p class="copyright">&copy; Copyright <a class="fontRoda">Descrypta</a> - 2022</p>
+</footer>
